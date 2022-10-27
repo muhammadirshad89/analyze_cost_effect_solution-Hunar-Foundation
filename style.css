@@ -1,0 +1,145 @@
+.content {
+    margin-top: 54px;
+    }
+    .header {
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    }
+    .left-title {
+    width: 100px;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    }
+    .right-title {
+    width: 150px;
+    text-align: right;
+    float: right;
+    color: #fff;
+    }
+    .quiz-body {
+    margin-top: 15px;
+    padding-bottom: 50px;
+    }
+    .option-block-container {
+    margin-top: 20px;
+    max-width: 420px;
+    }
+    .option-block {
+    padding: 10px;
+    background: aliceblue;
+    border: 1px solid #84c5fe;
+    margin-bottom: 10px;
+    cursor: pointer;
+    }
+    .result-question {
+    font-weight: bold;
+    }
+    .c-wrong {
+    margin-left: 20px;
+    color: #ff0000;
+    }
+    .c-correct {
+    margin-left: 20px;
+    color: green;
+    }
+    .last-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    }
+    .res-header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+            section {
+                padding: 60px 0;
+               /* min-height: 100vh;*/
+            }
+     ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+    .contact-area {
+        border-bottom: 1px solid #353C46;
+    }
+    
+    .contact-content p {
+        font-size: 15px;
+        margin: 30px 0 60px;
+        position: relative;
+    }
+    
+    .contact-content p::after {
+        background: #353C46;
+        bottom: -30px;
+        content: "";
+        height: 1px;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%);
+        width: 80%;
+    }
+    
+    .contact-content h6 {
+        color: #8b9199;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    
+    .contact-content span {
+        color: #353c47;
+        margin: 0 10px;
+    }
+    
+    .contact-social {
+        margin-top: 30px;
+    }
+    
+    .contact-social > ul {
+        display: inline-flex;
+    }
+    
+    .contact-social ul li a {
+        border: 1px solid #8b9199;
+        color: #8b9199;
+        display: inline-block;
+        height: 40px;
+        margin: 0 10px;
+        padding-top: 7px;
+        transition: all 0.4s ease 0s;
+        width: 40px;
+    }
+    
+    .contact-social ul li a:hover {
+        border: 1px solid #FAB702;
+        color: #FAB702;
+    }
+    
+    .contact-content img {
+        max-width: 210px;
+    }
+    
+    section, footer {
+        background: #1A1E25;
+        color: #868c96;
+    }
+    
+    footer p {
+        padding: 40px 0;
+        text-align: center;
+    }
+    
+    footer img {
+        width: 44px;
+    }
